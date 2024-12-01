@@ -1,4 +1,4 @@
-# WireGuard Easy
+# WelooGuard
 
 [![Build & Publish Docker Image to Docker Hub](https://github.com/wg-easy/wg-easy/actions/workflows/deploy.yml/badge.svg?branch=production)](https://github.com/wg-easy/wg-easy/actions/workflows/deploy.yml)
 [![Lint](https://github.com/wg-easy/wg-easy/actions/workflows/lint.yml/badge.svg?branch=master)](https://github.com/wg-easy/wg-easy/actions/workflows/lint.yml)
@@ -96,7 +96,7 @@ The Prometheus metrics will now be available on `http://0.0.0.0:51821/metrics`. 
 
 > 💡 Your configuration files will be saved in `~/.wg-easy`
 
-WireGuard Easy can be launched with Docker Compose as well - just download
+WelooGuard can be launched with Docker Compose as well - just download
 [`docker-compose.yml`](docker-compose.yml), make necessary adjustments and
 execute `docker compose up --detach`.
 
